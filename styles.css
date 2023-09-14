@@ -6,7 +6,7 @@ body, h1, p {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Comic Sans MS', cursive;
     background-color: #f7f7f7;
     text-align: center;
 }
@@ -14,7 +14,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #ffecb3; /* Pale yellow background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -22,32 +22,32 @@ body {
 
 h1 {
     font-size: 36px;
-    color: #333;
+    color: #ff6b6b; /* Red */
     margin-bottom: 10px;
 }
 
 .invitation-text {
     font-size: 18px;
-    color: #555;
+    color: #ffa07a; /* Light salmon */
     margin-bottom: 20px;
 }
 
 .date-time {
     font-size: 20px;
-    color: #777;
+    color: #87ceeb; /* Sky blue */
     margin-bottom: 10px;
 }
 
 .location {
     font-size: 18px;
-    color: #777;
+    color: #87ceeb; /* Sky blue */
     margin-bottom: 20px;
 }
 
 .rsvp-button a {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #ff6b6b;
+    background-color: #ff6b6b; /* Red */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .rsvp-button a:hover {
-    background-color: #ff4949;
+    background-color: #ff4949; /* Darker red */
 }
 
 /* Responsive Design */
